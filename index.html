@@ -2,213 +2,243 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Web Dev Portfolio | Brax</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Web Dev Portfolio | Brax</title>
+  <link rel="icon" type="image/png" href="./public/images/favicon.ico">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav class="navbar">
-        <a href="#home" class="logo">
-            <img src="./public/logo.png" alt="Portfolio Logo">
-        </a>
-        
-        <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation menu">
-        <label for="menu-toggle" class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
-        
-        <ul class="nav-menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#blog">Blog</a></li>
-        </ul>
-    </nav>
+  <nav class="navbar">
+    <a href="#home" class="logo">
+      <img src="./public/images/logo.png" alt="Portfolio Logo">
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation menu">
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    
+    <ul class="nav-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#blog">Blog</a></li>
+    </ul>
+  </nav>
 
-    <div class="bars-animation">
-        <div class="bar" style="--i:6"></div>
-        <div class="bar" style="--i:5"></div>
-        <div class="bar" style="--i:4"></div>
-        <div class="bar" style="--i:3"></div>
-        <div class="bar" style="--i:2"></div>
-        <div class="bar" style="--i:1"></div>
+  <div class="bars-animation">
+    <div class="bar" style="--i:6"></div>
+    <div class="bar" style="--i:5"></div>
+    <div class="bar" style="--i:4"></div>
+    <div class="bar" style="--i:3"></div>
+    <div class="bar" style="--i:2"></div>
+    <div class="bar" style="--i:1"></div>
+  </div>
+
+  <section class="home" id="home">
+    <div class="home-info">
+      <h3>> Hello, I'm</h3>
+      <h1>Johnn Brachuz A. Manda</h1>
+      <h3>// You can call me <span class="highlight">Brax</span></h3>
+      <h2>I'm a 
+        <span style="--i:4" data-text="Web Developer">Web Developer</span>
+        <span style="--i:3" data-text="Full-Stack Web Developer">Full-Stack Web Developer</span>
+        <span style="--i:2" data-text="Computer Engineer">Computer Engineer</span>
+        <span style="--i:1" data-text="Software Engineer">Software Engineer</span>
+      </h2>
+      <p>Full-stack developer with an eye for detail. I build web apps that are intentional, polished, and ready to solve real problems.</p>
+      <div class="btn-sci">
+        <a href="#contact" class="btn">Get In Touch</a>
+        <div class="sci">
+          <a href="https://github.com/J-Brax" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><img src="./public/icons/bxl-github.svg" alt="GitHub"></a>
+          <a href="https://gitlab.com/jbrax" target="_blank" rel="noopener noreferrer" aria-label="GitLab"><img src="./public/icons/bxl-gitlab.svg" alt="GitLab"></a>
+          <a href="https://www.linkedin.com/in/johnn-brachuz-manda-738b05280/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img src="./public/icons/bxl-linkedin.svg" alt="LinkedIn"></a>
+        </div>
+      </div>
     </div>
 
-    <section class="home" id="home">
-        <div class="home-info">
-            <h3>> Hello, I'm</h3>
-            <h1>Johnn Brachuz A. Manda</h1>
-            <h2>I'm a 
-                <span style="--i:4" data-text="Web Developer">Web Developer</span>
-                <span style="--i:3" data-text="Full-Stack Web Developer">Full-Stack Web Developer</span>
-                <span style="--i:2" data-text="Computer Engineer">Computer Engineer</span>
-                <span style="--i:1" data-text="Software Engineer">Software Engineer</span>
-            </h2>
-            <p>I'm a full-stack developer who codes with the same attention to detail I bring to recording a guitar track—every line matters, every element needs to hit just right. I build web applications that don't just work, they feel intentional, polished, and ready to solve real problems.</p>
-            <div class="btn-sci">
-                <a href="#contact" class="btn">Get In Touch</a>
-                <div class="sci">
-                    <a href="https://github.com/J-Brax" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bx bxl-github"></i></a>
-                    <a href="https://gitlab.com/jbrax" target="_blank" rel="noopener noreferrer" aria-label="GitLab"><i class="bx bxl-gitlab"></i></a>
-                    <a href="https://www.linkedin.com/in/johnn-brachuz-manda-738b05280/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
-                </div>
-            </div>
+    <div class="home-img">
+      <div class="img-box">
+        <div class="img-item">
+          <img src="./public/images/profile.png" alt="Johnn Brachuz A. Manda Photo">
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="home-img">
-            <div class="img-box">
-                <div class="img-item">
-                    <img src="./public/profile.png" alt="Johnn Brachuz A. Manda Photo">
-                </div>
-            </div>
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title auto-show">>> About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <h3 class="auto-show">Get to know me</h3>
+          <p class="auto-show">Web development clicked for me during my third year of Computer Engineering in a Software Design course. I loved that I could build anything, so I taught myself the practical side beyond what school offered.</p>
+          <p class="auto-show">I completed a 240-hour college internship at Cauld and Clark IT Solutions, where I maintained inventory systems and built an IT ticketing platform. After graduating in 2025, I joined a proper internship for another three months. But I eventually realized I was stacking frameworks without solid fundamentals, so I stepped back and enrolled in Uplift Code Camp to master the basics properly.</p>
+          <p class="auto-show">I've built with React, Next.js, TypeScript, Tailwind, PostgreSQL, and MongoDB - including a school management system for my program chair - but now I'm rebuilding from HTML, CSS, and JavaScript upward to make sure every layer is solid.</p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <section class="about" id="about">
-        <div class="container">
-            <h2 class="section-title auto-show">>> About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3 class="auto-show">Get to know me</h3>
-                    <p class="auto-show">Web development clicked for me during third year Computer Engineering in a Software Design course. I loved that I could build anything, so I taught myself the practical side beyond what school offered.</p>
-                    <p class="auto-show">I did a 240-hour college internship at Cauld and Clark IT Solutions maintaining inventory systems and building an IT ticketing platform, then joined proper internship for three months after graduating in 2025. But I realized I was stacking frameworks without solid fundamentals, so I stepped back to join Uplift Code Camp to master the basics properly.</p>
-                    <p class="auto-show">I've built with React, Next.js, TypeScript, Tailwind, PostgreSQL, and MongoDB—including a school management system for my program chair—but now I'm rebuilding from HTML, CSS, and JavaScript up to make sure every layer is solid.</p>
-                </div>
-            </div>
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="section-title auto-show">>> Skills & Technologies</h2>
+      <div class="skills-grid">
+        <div class="skill-item auto-show">
+          <img src="./public/icons/html5-original.svg" alt="HTML5">
+          <span>HTML5</span>
         </div>
-    </section>
-
-    <section class="skills" id="skills">
-        <div class="container">
-            <h2 class="section-title auto-show">>> Skills & Technologies</h2>
-            <div class="skills-grid">
-                <div class="skill-item auto-show">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
-                    <span>HTML5</span>
-                </div>
-                <div class="skill-item auto-show">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
-                    <span>CSS3</span>
-                </div>
-                <div class="skill-item auto-show">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
-                    <span>JavaScript</span>
-                </div>
-                <div class="skill-item auto-show">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
-                    <span>React</span>
-                </div>
-                <div class="skill-item auto-show">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
-                    <span>Node.js</span>
-                </div>
-                <div class="skill-item auto-show">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
-                    <span>Git</span>
-                </div>
-                <div class="skill-item auto-show">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
-                    <span>MongoDB</span>
-                </div>
-                <div class="skill-item auto-show">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
-                    <span>Python</span>
-                </div>
-            </div>
+        <div class="skill-item auto-show">
+          <img src="./public/icons/css3-original.svg" alt="CSS3">
+          <span>CSS3</span>
         </div>
-    </section>
-
-    <section class="projects" id="projects">
-        <div class="container">
-            <h2 class="section-title auto-show">>> Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card auto-show">
-                    <h3>Project 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis tristique lorem, vitae venenatis elit porttitor ullamcorper. Cras euismod velit ut elit ultrices rhoncus.</p>
-                    <div class="project-links">
-                        <a href="#" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
-                        <a href="#" target="_blank" rel="noopener noreferrer" class="project-link">GitHub</a>
-                    </div>
-                </div>
-                <div class="project-card auto-show">
-                    <h3>Project 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis tristique lorem, vitae venenatis elit porttitor ullamcorper. Cras euismod velit ut elit ultrices rhoncus.</p>
-                    <div class="project-links">
-                        <a href="#" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
-                        <a href="#" target="_blank" rel="noopener noreferrer" class="project-link">GitHub</a>
-                    </div>
-                </div>
-                <div class="project-card auto-show">
-                    <h3>Project 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In facilisis tristique lorem, vitae venenatis elit porttitor ullamcorper. Cras euismod velit ut elit ultrices rhoncus.</p>
-                    <div class="project-links">
-                        <a href="#" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
-                        <a href="#" target="_blank" rel="noopener noreferrer" class="project-link">GitHub</a>
-                    </div>
-                </div>
-            </div>
+        <div class="skill-item auto-show">
+          <img src="./public/icons/javascript-original.svg" alt="JavaScript">
+          <span>JavaScript</span>
         </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <div class="container">
-            <h2 class="section-title auto-show">>> Get In Touch</h2>
-            <div class="contact-content">
-                <p class="auto-show">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
-                <div class="contact-methods auto-show">
-                    <a href="mailto:mandajohnnbrachuz@gmail.com" class="contact-btn">
-                        <i class="bx bx-envelope"></i>
-                        <span>Email Me</span>
-                    </a>
-                    <a href="./public/manda_resume.pdf" class="contact-btn" download>
-                        <i class="bx bx-download"></i>
-                        <span>Download Resume</span>
-                    </a>
-                    <div class="social-links">
-                        <a href="https://github.com/J-Brax" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bx bxl-github"></i></a>
-                        <a href="https://gitlab.com/jbrax" target="_blank" rel="noopener noreferrer" aria-label="GitLab"><i class="bx bxl-gitlab"></i></a>
-                        <a href="https://www.linkedin.com/in/johnn-brachuz-manda-738b05280/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
+        <div class="skill-item auto-show">
+          <img src="./public/icons/react-original.svg" alt="React">
+          <span>React</span>
         </div>
-    </section>
-
-    <section class="blog" id="blog">
-        <div class="container">
-            <h2 class="section-title auto-show">>> Blog</h2>
-            <div class="blog-grid">
-                <article class="blog-card auto-show">
-                    <h3>Why I Got Dropped From My First Dev Job (And Why It Was the Best Thing That Happened to Me)</h3>
-                    <p class="blog-date">November 2025</p>
-                    <p>Three months into my first real developer job, I got let go...</p>
-                    <a href="https://medium.com/@j-brax/why-i-got-dropped-from-my-first-dev-job-and-why-it-was-the-best-thing-that-happened-to-me-e7e1ecd0dccc" target="_blank" rel="noopener noreferrer" class="read-more">Read More</a>
-                </article>
-                <article class="blog-card auto-show">
-                    <h3>CSS Grid vs Flexbox: When to Use Which (With Real Projects)</h3>
-                    <p class="blog-date">November 2025</p>
-                    <p>As a web developer, I’ve spent countless hours debating whether to use CSS Grid or Flexbox for various layouts...</p>
-                    <a href="https://medium.com/@j-brax/css-grid-vs-flexbox-when-to-use-which-with-real-projects-d79d135e44cb" target="_blank" rel="noopener noreferrer" class="read-more">Read More</a>
-                </article>
-            </div>
+        <div class="skill-item auto-show">
+          <img src="./public/icons/nodejs-original.svg" alt="Node.js">
+          <span>Node.js</span>
         </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <p>Made with ❤️ and space vibes</p>
-            <p>Only pure HTML & CSS</p>
+        <div class="skill-item auto-show">
+          <img src="./public/icons/git-original.svg" alt="Git">
+          <span>Git</span>
         </div>
-    </footer>
+        <div class="skill-item auto-show">
+          <img src="./public/icons/mongodb-original.svg" alt="MongoDB">
+          <span>MongoDB</span>
+        </div>
+        <div class="skill-item auto-show">
+          <img src="./public/icons/python-original.svg" alt="Python">
+          <span>Python</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="section-title auto-show">>> Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card auto-show">
+          <a href="./public/images/sbms.png" target="_blank" rel="noopener noreferrer" class="project-preview" data-preview="Open Image">
+            <img src="./public/images/sbms.png" alt="School-based Management System Preview">
+          </a>
+          <h3>School-based Management System</h3>
+          <p>A full-stack school management platform featuring role-based dashboards for admins, teachers, students, and parents. Built with Next.js 15, Clerk Auth, and Prisma ORM with PostgreSQL. Includes class scheduling, attendance tracking, grade management, and real-time announcements.</p>
+          <div class="project-links">
+            <a href="https://github.com/J-Brax/School-Based-Management-System-App" target="_blank" rel="noopener noreferrer" class="project-link">GitHub</a>
+          </div>
+        </div>
+        <div class="project-card auto-show">
+          <a href="./public/images/react-todo.png" target="_blank" rel="noopener noreferrer" class="project-preview" data-preview="Open Image">
+            <img src="./public/images/react-todo.png" alt="React To-Do List Preview">
+          </a>
+          <h3>React To-Do List App</h3>
+          <p>A modern task management app built with Vite and React. Features include add, edit, delete, and mark tasks as complete with persistent local storage. Clean UI with responsive design and smooth animations.</p>
+          <div class="project-links">
+            <a href="https://github.com/J-Brax/Brax-Vite-React-To-Do-List-App" target="_blank" rel="noopener noreferrer" class="project-link">GitHub</a>
+          </div>
+        </div>
+        <div class="project-card auto-show">
+          <a href="./public/images/simon.png" target="_blank" rel="noopener noreferrer" class="project-preview" data-preview="Open Image">
+            <img src="./public/images/simon.png" alt="Simon Game Preview">
+          </a>
+          <h3>Simon Game</h3>
+          <p>A classic memory game recreated with vanilla HTML, CSS, and JavaScript. Features progressive difficulty, sound effects, visual feedback, and high score tracking. No frameworks - just pure DOM manipulation.</p>
+          <div class="project-links">
+            <a href="https://github.com/J-Brax/Brax-Simon-Game" target="_blank" rel="noopener noreferrer" class="project-link">GitHub</a>
+          </div>
+        </div>
+        <div class="project-card auto-show">
+          <a href="./public/images/todo.png" target="_blank" rel="noopener noreferrer" class="project-preview" data-preview="Open Image">
+            <img src="./public/images/todo.png" alt="Vanilla To-Do List Preview">
+          </a>
+          <h3>Vanilla To-Do List App</h3>
+          <p>A lightweight task manager built without any frameworks. Demonstrates core JavaScript skills including DOM manipulation, event handling, and localStorage for data persistence. Mobile-responsive design.</p>
+          <div class="project-links">
+            <a href="https://github.com/J-Brax/Brax-To-Do-List" target="_blank" rel="noopener noreferrer" class="project-link">GitHub</a>
+          </div>
+        </div>
+        <div class="project-card auto-show">
+          <a href="./public/images/wordscript.png" target="_blank" rel="noopener noreferrer" class="project-preview" data-preview="Open Image">
+            <img src="./public/images/wordscript.png" alt="WordScript Preview">
+          </a>
+          <h3>WordScript - CLI Wordle Game</h3>
+          <p>A terminal-based Wordle clone built with pure JavaScript. Features colored feedback for correct/misplaced letters, 6 attempts per game, and a curated word list. Perfect for practicing Node.js and CLI development.</p>
+          <div class="project-links">
+            <a href="https://github.com/J-Brax/WordScript" target="_blank" rel="noopener noreferrer" class="project-link">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title auto-show">>> Get In Touch</h2>
+      <div class="contact-content">
+        <p class="auto-show">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+        <div class="contact-methods auto-show">
+          <a href="mailto:mandajohnnbrachuz@gmail.com" class="contact-btn email-btn">
+            <img src="./public/icons/bx-mail-send.svg" alt="Email" class="contact-icon">
+            <span class="email-text" data-email="mandajohnnbrachuz@gmail.com">Email Me</span>
+          </a>
+          <a href="./public/manda_resume.pdf" class="contact-btn" download>
+            <span>Download Resume</span>
+          </a>
+          <div class="social-links">
+            <a href="https://github.com/J-Brax" target="_blank" rel="noopener noreferrer" aria-label="GitHub" data-label="GitHub"><img src="./public/icons/bxl-github.svg" alt="GitHub"></a>
+            <a href="https://gitlab.com/jbrax" target="_blank" rel="noopener noreferrer" aria-label="GitLab" data-label="GitLab"><img src="./public/icons/bxl-gitlab.svg" alt="GitLab"></a>
+            <a href="https://www.linkedin.com/in/johnn-brachuz-manda-738b05280/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" data-label="LinkedIn"><img src="./public/icons/bxl-linkedin.svg" alt="LinkedIn"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blog" id="blog">
+    <div class="container">
+      <h2 class="section-title auto-show">>> Blog</h2>
+      <div class="blog-grid">
+        <article class="blog-card auto-show">
+          <h3>Why I Got Dropped From My First Dev Job (And Why It Was the Best Thing That Happened to Me)</h3>
+          <p class="blog-date">November 2025</p>
+          <p>Three months into my first real developer job, I got let go...</p>
+          <div class="blog-links">
+            <a href="blog.html" class="read-more">Read More</a>
+            <a href="https://medium.com/@j-brax/why-i-got-dropped-from-my-first-dev-job-and-why-it-was-the-best-thing-that-happened-to-me-e7e1ecd0dccc" target="_blank" rel="noopener noreferrer" class="read-more">Read on Medium</a>
+          </div>
+        </article>
+        <article class="blog-card auto-show">
+          <h3>CSS Grid vs Flexbox: When to Use Which (With Real Projects)</h3>
+          <p class="blog-date">November 2025</p>
+          <p>As a web developer, I've spent countless hours debating whether to use CSS Grid or Flexbox for various layouts...</p>
+          <div class="blog-links">
+            <a href="https://medium.com/@j-brax/css-grid-vs-flexbox-when-to-use-which-with-real-projects-d79d135e44cb" target="_blank" rel="noopener noreferrer" class="read-more">Read More on Medium</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Designed & Built by Johnn Brachuz A. Manda | 2025</p>
+      <p>Crafted with pure HTML & CSS | No JavaScript, No Frameworks</p>
+    </div>
+  </footer>
 
 </body>
 
